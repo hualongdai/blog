@@ -8,7 +8,6 @@ title: 个人博客
 subtitle: 一个记录学习、工作的的地方
 description: 随便写写，切勿当真
 author: daihailong
-# Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: zh-Hans
 date_format: '%Y-%m-%d'
 
@@ -86,7 +85,7 @@ keywords: "React, Javascipt, JS, webpack, ES6, babel, mobx, RN, ReactNative, Red
 rss: false
 
 # Specify the date when the site was setup
-#since: 2015
+since: 2016
 
 # icon between year and author @Footer
 authoricon: heart
@@ -117,7 +116,7 @@ index_with_subtitle: false
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  #categories: /categories/
+  categories: /categories/
   #about: /about/
   archives: /archives/
   tags: /tags/
@@ -212,8 +211,8 @@ font:
 # Social Links
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
-#social:
-  #LinkLabel: Link
+social:
+  GitHub: https://github.com/hualongdai
 
 
 # Social Links Icons
@@ -232,7 +231,7 @@ social_icons:
 
 # Sidebar Avatar
 # in directory: /assets/images/avatar.gif
-#avatar:
+avatar: /assets/images/github.png
 
 
 # Table Of Contents in the Sidebar
@@ -263,9 +262,9 @@ sidebar:
   #  - always  expand for all pages automatically
   #  - hide    expand only when click on the sidebar toggle icon.
   #  - remove  Totally remove sidebar including sidebar toggle.
-  display: post
+  # display: post
   #display: always
-  #display: hide
+  display: hide
   #display: remove
 
   # Sidebar offset from top menubar in pixels.
@@ -286,6 +285,11 @@ sidebar:
 #links:
   #Title: http://example.com/
 
+
+# 打赏
+
+wechatpay: /assets/images/wechat.jpeg
+alipay: /assets/images/zhifubao.jpeg
 
 # ---------------------------------------------------------------
 # Post Settings
@@ -344,8 +348,8 @@ post_copyright:
 #   enabled: [true/false] - Replace with specific image
 #   image: url-of-image   - Images's url
 custom_logo:
-  enabled: false
-  image:
+  enabled: true
+  image: /assets/images/github.png
 
 
 # Code Highlight theme
