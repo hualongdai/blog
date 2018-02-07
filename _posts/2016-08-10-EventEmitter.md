@@ -10,7 +10,7 @@ tag:
 
 写EventEmitter 应该注意的点
 
-{% highlight ruby linenos %}
+{% highlight javascript linenos %}
 /* eslint-disable no-console */
 const warn = (msg) => { console.warn(msg); };
 
