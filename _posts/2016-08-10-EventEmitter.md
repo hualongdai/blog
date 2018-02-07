@@ -2,7 +2,7 @@
 title: EventEmitter with ES6
 date: 2016-08-10
 categories:
-- JS
+- JS基础
 tag: 
 - EventEmitter
 - ES6
