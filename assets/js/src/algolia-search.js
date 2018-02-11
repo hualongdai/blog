@@ -37,7 +37,7 @@ $(document).ready(function () {
       hitsPerPage: algoliaSettings.hits.per_page || 10,
       templates: {
         item: function (data) {
-          var link = data.permalink ? data.permalink : (CONFIG.root + data.path);
+          var link = data.permalink ? data.permalink : (CONFIG.root + data.url);
           return (
             '<a href="' + link + '" class="algolia-hit-item-link">' +
               data._highlightResult.title.value +

@@ -307,7 +307,7 @@ excerpt_description: true
 # Automatically Excerpt. Not recommend.
 # Please use <!-- more --> in the post to control excerpt accurately.
 auto_excerpt:
-  enable: false
+  enable: true
   length: 300
 
 # Post meta display settings
@@ -545,7 +545,7 @@ calendar:
 algolia:
   application_id: 'RCE2PPH1T5'
   api_key: '665f397a76822c72f64894a87364058f'
-  index_name: 'prod_BLOG_SEARCH'
+  index_name: 'dev_BLOG_SEARCH'
 
 # Algolia Search
 algolia_search:
