@@ -541,15 +541,21 @@ calendar:
   singleEvents: true
   maxResults: 250
 
+# Algolia Config
+algolia:
+  application_id: 'RCE2PPH1T5'
+  api_key: '665f397a76822c72f64894a87364058f'
+  index_name: 'prod_BLOG_SEARCH'
+
 # Algolia Search
 algolia_search:
-  enable: false
+  enable: true
   hits:
     per_page: 10
   labels:
-    input_placeholder: Search for Posts
-    hits_empty: "We didn't find any results for the search: ${query}"
-    hits_stats: "${hits} results found in ${time} ms"
+    input_placeholder: 请输入
+    hits_empty: "没有找到关于: ${query}的文章"
+    hits_stats: "共有 ${hits} 条记录"
 
 
 # Local search

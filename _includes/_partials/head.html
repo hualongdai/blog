@@ -118,9 +118,9 @@
       author: '{{ site.duoshuo_info.admin_nickname | default: __.author }}'
     },
     algolia: {
-      applicationID: '{{ site.algolia.applicationID }}',
-      apiKey: '{{ site.algolia.apiKey }}',
-      indexName: '{{ site.algolia.indexName }}',
+      applicationID: '{{ site.algolia.application_id }}',
+      apiKey: '{{ site.algolia.api_key }}',
+      indexName: '{{ site.algolia.index_name }}',
       hits: {{ site.algolia_search.hits | jsonify }},
       labels: {{ site.algolia_search.labels | jsonify }}
     }
