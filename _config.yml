@@ -543,9 +543,9 @@ calendar:
 
 # Algolia Config
 algolia:
-  applicationID: 'RCE2PPH1T5'
-  apiKey: '665f397a76822c72f64894a87364058f'
-  indexName: 'dev_BLOG_SEARCH'
+  application_id: 'RCE2PPH1T5'
+  api_key: '665f397a76822c72f64894a87364058f'
+  index_name: 'prod_BLOG_SEARCH'
 
 # Algolia Search
 algolia_search:
