@@ -63,3 +63,4 @@ class EventEmitter {
 export default new EventEmitter();
 
 {% endhighlight %}
+<!-- more -->

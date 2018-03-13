@@ -12,11 +12,11 @@ tag:
 
 写一个头像组件
 
-```jsx
+```js
 class Avator extends React.Component {
-	render() {
-		return <img src={this.props.url} />;
-	}
+  render() {
+    return <img src={this.props.url} />;
+  }
 }
 
 ```
@@ -38,7 +38,7 @@ const Avator = (props) => <img src={props.url} />;
 ReactDOM.render(Avator({ url: 'http://baidu.com' }), mountNode)
 
 ```
-
+<!-- more -->
 ### 缓存
 
 
