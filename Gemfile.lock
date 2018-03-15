@@ -8,10 +8,10 @@ GEM
       tzinfo (~> 1.1)
     addressable (2.5.2)
       public_suffix (>= 2.0.2, < 4.0)
-    algolia_html_extractor (2.2.1)
+    algolia_html_extractor (2.5.1)
       awesome_print (~> 1.6)
       json (~> 2.0)
-      nokogiri (~> 1.8)
+      nokogiri (~> 1.8.2)
     algoliasearch (1.19.1)
       httpclient (~> 2.8.3)
       json (>= 1.5.1)
@@ -101,12 +101,11 @@ GEM
       pathutil (~> 0.9)
       rouge (>= 1.7, < 3)
       safe_yaml (~> 1.0)
-    jekyll-algolia (1.1.0)
+    jekyll-algolia (1.1.5)
       algolia_html_extractor (~> 2.2)
       algoliasearch (~> 1.18)
       filesize (~> 0.1)
       jekyll (~> 3.0)
-      jekyll-paginate (~> 1.1)
       json (~> 2.0)
       nokogiri (~> 1.6)
       verbal_expressions (~> 0.1.5)
@@ -256,7 +255,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll (~> 3.6)
-  jekyll-algolia
+  jekyll-algolia (~> 1.1.5)
 
 BUNDLED WITH
    1.16.0

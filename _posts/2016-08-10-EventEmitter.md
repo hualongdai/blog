@@ -9,7 +9,7 @@ tag:
 ---
 
 写EventEmitter 应该注意的点
-
+<!-- more -->
 {% highlight javascript linenos %}
 /* eslint-disable no-console */
 const warn = (msg) => { console.warn(msg); };
@@ -63,4 +63,3 @@ class EventEmitter {
 export default new EventEmitter();
 
 {% endhighlight %}
-<!-- more -->

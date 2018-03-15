@@ -7,5 +7,5 @@ source 'https://rubygems.org'
 gem 'jekyll', '~> 3.6'
 
 group :jekyll_plugins do
-  gem 'jekyll-algolia'
+  gem 'jekyll-algolia', '~> 1.1.5'
 end
