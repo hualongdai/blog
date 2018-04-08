@@ -28,6 +28,8 @@ webpack dev server 配置
   }
 }
 ```
+<!-- more -->
+
 ### devServer 参数详解
 
 historyApiFallback:  当我们使用 H5 的history api的时候，往往不会刷新页面，我们就通过往浏览器history 添加记录来实现页面跳转
