@@ -76,17 +76,21 @@ devServer: {
 ```js
 {
   devServer: {
-    hot: true // 只单单这是这个不行  必须配合 下面两个插件
+    hot: true, // 只单单这是这个不行  必须配合 下面两个插件
+    hotOnly: true // 只通过热更新代码 而不是通过 live reload 刷新页面更新
   },
   plugins: [
-    new webpack.hotModuleReplacementPlugin(),
+    new webpack.HotModuleReplacementPlugin(),
     new webpack.NamedModulePlugin()  // 这个不是必须  只是为了看相对路径输出
   ]
 }
 
 // 单单这样 我们看到确实能够检测到变化  但是不能实时生效
+// 这里还需要在 自己的module文件里 设置 module.hot = true
 
-// 这里还需要在module 设置 module.hot = true
+if (module.hot) {
+  module.hot.accept()
+}
 ```
 
 devtool
